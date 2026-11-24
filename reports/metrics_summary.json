@@ -1,0 +1,58 @@
+{
+  "qdii_attribution": {
+    "ndx_5y_return_pct": 69.47,
+    "usdcny_5y_return_pct": 8.65,
+    "qdii_nav_5y_return_pct": 76.08,
+    "attribution_ndx_share_pct": 93.2,
+    "attribution_fx_share_pct": 14.7,
+    "attribution_fee_tracking_share_pct": -7.9,
+    "avg_premium_pct": 1.92,
+    "max_premium_pct": 8.47,
+    "high_premium_alert_days": 304,
+    "high_premium_alert_ratio_pct": 23.3
+  },
+  "strategies": [
+    {
+      "strategy": "Fixed DCA (70% NDX + 30% SPX)",
+      "total_invested_rmb": 262000.0,
+      "ending_value_rmb": 366087.49,
+      "net_profit_rmb": 104087.49,
+      "total_return_on_cost_pct": 39.73,
+      "xirr_pct": 13.54,
+      "twr_cagr_pct": 11.55,
+      "annualized_vol_pct": 21.84,
+      "sharpe_ratio": 0.44,
+      "sortino_ratio": 0.73,
+      "max_drawdown_pct": -31.11,
+      "calmar_ratio": 0.37
+    },
+    {
+      "strategy": "MA200 Dynamic DCA + Premium Guard",
+      "total_invested_rmb": 241466.3,
+      "ending_value_rmb": 351637.7,
+      "net_profit_rmb": 110171.41,
+      "total_return_on_cost_pct": 45.63,
+      "xirr_pct": 14.41,
+      "twr_cagr_pct": 11.63,
+      "annualized_vol_pct": 21.69,
+      "sharpe_ratio": 0.44,
+      "sortino_ratio": 0.74,
+      "max_drawdown_pct": -31.11,
+      "calmar_ratio": 0.37
+    },
+    {
+      "strategy": "Equity + Gold Dynamic (50/25/25)",
+      "total_invested_rmb": 241466.3,
+      "ending_value_rmb": 356235.84,
+      "net_profit_rmb": 114769.54,
+      "total_return_on_cost_pct": 47.53,
+      "xirr_pct": 14.91,
+      "twr_cagr_pct": 12.76,
+      "annualized_vol_pct": 16.16,
+      "sharpe_ratio": 0.67,
+      "sortino_ratio": 1.12,
+      "max_drawdown_pct": -23.76,
+      "calmar_ratio": 0.54
+    }
+  ]
+}
